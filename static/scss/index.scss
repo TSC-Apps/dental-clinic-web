@@ -1,13 +1,16 @@
 @use 'variables';
 
-.mid-content {
+.content {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   z-index: 3;
   position: absolute;
   top: 200px;
   right: 0;
+}
+
+.mid-content {
+  display: flex;
+  justify-content: space-between;
 
   h1 {
     color: variables.$text-black;
@@ -15,20 +18,20 @@
   }
 
   h3 {
+    color: variables.$text-dark-gray;
     font-weight: normal;
     font-size: 32px;
   }
 }
 
 .dentist-photo {
-  width: 45%;
+  width: 43%;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
 }
 
 .text-column {
   margin-left: 150px;
-  margin-top: 50px;
   max-width: 45%;
 
   a {
@@ -46,11 +49,13 @@
   padding: 20px 40px;
   border-radius: 50px;
 
-  span {
-  }
-
   img {
     width: 20px;
     float: right;
   }
+}
+
+.bottom-content {
+  width: 100%;
+  margin-left: 150px;
 }

@@ -47,7 +47,7 @@ body {
   text-align: right;
   font-size: 14px;
   margin-right: 50px;
-  // 2 * 18 + 14 = 50 
+  // 2 * 18 + 14 = 50
   padding: 18px 0;
 }
 
@@ -85,26 +85,8 @@ nav {
   }
 }
 
-#tooth2 {
-  top: 0;
-  left: 0;
-}
-
-#tooth1 {
-  top: -5px;
-  left: -50px;
-}
-
-#tooth3 {
-  top: -45px;
-  left: -80px;
-}
-
-
-#logo-text{
-  position: relative;
-  top: 20px;
-  left: -60px;
+#logo-text {
+  margin: 20px 0 0 10px;
 }
 
 // NAVBAR
@@ -128,4 +110,49 @@ nav {
       margin-left: 50px;
     }
   }
+}
+
+// GLOBAL UTILS
+.phone-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: variables.$background-gray;
+}
+
+.phone {
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+}
+
+.smart {
+  top: 18%;
+}
+
+.contact {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 120px;
+
+  span {
+    display: block;
+    margin-top: 1px;
+  }
+}
+
+.number {
+  color: variables.$text-black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-data {
+  margin-left: 20px;
+}
+
+.contact-options {
+  display: flex;
 }
