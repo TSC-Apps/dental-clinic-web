@@ -38,9 +38,6 @@ body {
   z-index: 2;
   border-bottom-left-radius: 100px;
 }
-.contact-bar span {
-  color: #70838d;
-}
 
 .text-container {
   text-align: right;

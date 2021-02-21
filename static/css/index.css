@@ -1,3 +1,48 @@
+.mid-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+  position: absolute;
+  top: 200px;
+  right: 0;
+}
+.mid-content h1 {
+  color: #3F4549;
+  font-size: 64px;
+}
+.mid-content h3 {
+  font-weight: normal;
+  font-size: 32px;
+}
 
+.dentist-photo {
+  width: 45%;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+.text-column {
+  margin-left: 150px;
+  margin-top: 50px;
+  max-width: 45%;
+}
+.text-column a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #3F4549;
+}
+
+.arrow-button {
+  background: linear-gradient(#E1E25E, #D8EE50);
+  width: 200px;
+  padding: 20px 40px;
+  border-radius: 50px;
+}
+.arrow-button img {
+  width: 20px;
+  float: right;
+}
 
 /*# sourceMappingURL=index.css.map */

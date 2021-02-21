@@ -1,5 +1,4 @@
-$text-dark-gray: #50585c;
-$text-light-gray: #70838d;
+@use 'variables';
 
 html,
 body {
@@ -8,8 +7,10 @@ body {
   overflow: hidden;
   font-family: Rubik, sans-serif;
   font-size: 16px;
-  color: $text-light-gray;
+  color: variables.$text-light-gray;
 }
+
+// BACKGROUND, CONTACT, NAV
 
 .images-container {
   width: 100vw;
@@ -40,10 +41,6 @@ body {
   opacity: 1;
   z-index: 2;
   border-bottom-left-radius: 100px;
-
-  span {
-    color: $text-light-gray;
-  }
 }
 
 .text-container {
