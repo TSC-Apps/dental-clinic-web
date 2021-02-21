@@ -4,7 +4,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: Rubik, sans-serif;
   font-size: 16px;
   color: variables.$text-light-gray;
@@ -30,6 +30,10 @@ body {
   top: 0;
   right: 0;
   z-index: 2;
+
+  @media (max-width: 1050px) {
+    display: none;
+  }
 }
 
 .contact-bar {
@@ -41,6 +45,10 @@ body {
   opacity: 1;
   z-index: 2;
   border-bottom-left-radius: 100px;
+
+  @media (max-width: 1050px) {
+    display: none;
+  }
 }
 
 .text-container {
@@ -68,6 +76,10 @@ nav {
   display: flex;
   justify-content: space-between;
   position: absolute;
+
+  @media (max-width: 1050px){
+    display: none;
+  }
 }
 
 // LOGO
@@ -94,6 +106,10 @@ nav {
 .navbar {
   display: flex;
   margin-right: 50px;
+
+  @media (max-width: 1050px) {
+    display: none;
+  }
 
   a {
     text-decoration: none;
@@ -143,6 +159,20 @@ nav {
   }
 }
 
+.bottom-questions {
+  @media (max-width: 1050px) {
+    display: none;
+  }
+}
+
+.contact-options {
+  display: flex;
+
+  @media (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
 .number {
   color: variables.$text-black;
   font-size: 24px;
@@ -151,8 +181,4 @@ nav {
 
 .contact-data {
   margin-left: 20px;
-}
-
-.contact-options {
-  display: flex;
 }

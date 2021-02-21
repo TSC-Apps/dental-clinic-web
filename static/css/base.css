@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: Rubik, sans-serif;
   font-size: 16px;
   color: #70838d;
@@ -27,6 +27,11 @@ body {
   right: 0;
   z-index: 2;
 }
+@media (max-width: 1050px) {
+  .wave {
+    display: none;
+  }
+}
 
 .contact-bar {
   background-color: white;
@@ -37,6 +42,11 @@ body {
   opacity: 1;
   z-index: 2;
   border-bottom-left-radius: 100px;
+}
+@media (max-width: 1050px) {
+  .contact-bar {
+    display: none;
+  }
 }
 
 .text-container {
@@ -64,6 +74,11 @@ nav {
   justify-content: space-between;
   position: absolute;
 }
+@media (max-width: 1050px) {
+  nav {
+    display: none;
+  }
+}
 
 #logo {
   margin-left: 150px;
@@ -83,6 +98,11 @@ nav {
 .navbar {
   display: flex;
   margin-right: 50px;
+}
+@media (max-width: 1050px) {
+  .navbar {
+    display: none;
+  }
 }
 .navbar a {
   text-decoration: none;
@@ -128,6 +148,21 @@ nav {
   margin-top: 1px;
 }
 
+@media (max-width: 1050px) {
+  .bottom-questions {
+    display: none;
+  }
+}
+
+.contact-options {
+  display: flex;
+}
+@media (max-width: 1050px) {
+  .contact-options {
+    flex-direction: column;
+  }
+}
+
 .number {
   color: #3F4549;
   font-size: 24px;
@@ -136,10 +171,6 @@ nav {
 
 .contact-data {
   margin-left: 20px;
-}
-
-.contact-options {
-  display: flex;
 }
 
 /*# sourceMappingURL=base.css.map */

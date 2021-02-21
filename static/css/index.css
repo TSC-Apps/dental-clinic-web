@@ -14,16 +14,32 @@
   color: #3F4549;
   font-size: 64px;
 }
+@media (max-width: 1050px) {
+  .mid-content h1 {
+    font-size: 36px;
+  }
+}
 .mid-content h3 {
   color: #50585c;
   font-weight: normal;
   font-size: 32px;
 }
+@media (max-width: 1050px) {
+  .mid-content h3 {
+    font-size: 24px;
+  }
+}
 
 .dentist-photo {
   width: 43%;
+  object-fit: cover;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
+}
+@media (max-width: 1300px) {
+  .dentist-photo {
+    display: none;
+  }
 }
 
 .text-column {
@@ -49,8 +65,12 @@
 }
 
 .bottom-content {
-  width: 100%;
   margin-left: 150px;
+}
+@media (max-width: 1300px) {
+  .bottom-content {
+    margin-top: 30px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
