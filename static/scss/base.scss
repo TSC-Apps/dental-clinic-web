@@ -1,0 +1,52 @@
+$default-font: Rubik, sans-serif;
+$text-dark-gray: #50585c;
+$text-light-gray: #70838d;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  background-image: url("../img/Galeria4mono.jpg");
+  z-index: 1;
+  // opacity: 0.07;
+}
+
+.wave-container {
+  position: relative;
+}
+
+.wave {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+nav {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline;
+      float: right;
+      a {
+        text-decoration: none;
+        color: $text-light-gray;
+      }
+    }
+  }
+}

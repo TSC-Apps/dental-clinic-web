@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  background-image: url("../img/Galeria4mono.jpg");
+  z-index: 1;
+}
+
+.wave-container {
+  position: relative;
+}
+
+.wave {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+nav {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul li {
+  display: inline;
+  float: right;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #70838d;
+}
+
+/*# sourceMappingURL=base.css.map */
