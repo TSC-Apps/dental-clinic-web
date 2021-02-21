@@ -11,10 +11,6 @@ body {
   color: $text-light-gray;
 }
 
-.container {
-  position: relative;
-}
-
 .images-container {
   width: 100vw;
   height: 100vh;
@@ -58,11 +54,11 @@ body {
   padding: 18px 0;
 }
 
-.normal-contact {
+.normal-weight {
   font-weight: 400;
 }
 
-.medium-contact {
+.medium-weight {
   font-weight: 500;
 }
 
@@ -76,6 +72,45 @@ nav {
   justify-content: space-between;
   position: absolute;
 }
+
+// LOGO
+
+#logo {
+  margin-left: 150px;
+  display: flex;
+
+  img {
+    position: relative;
+  }
+
+  span {
+    display: block;
+  }
+}
+
+#tooth2 {
+  top: 0;
+  left: 0;
+}
+
+#tooth1 {
+  top: -5px;
+  left: -50px;
+}
+
+#tooth3 {
+  top: -45px;
+  left: -80px;
+}
+
+
+#logo-text{
+  position: relative;
+  top: 20px;
+  left: -60px;
+}
+
+// NAVBAR
 
 .navbar {
   display: flex;
