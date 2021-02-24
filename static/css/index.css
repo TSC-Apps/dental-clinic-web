@@ -1,6 +1,6 @@
 .content {
   width: 100%;
-  z-index: 3;
+  z-index: 2;
   position: absolute;
   top: 200px;
   right: 0;
@@ -44,13 +44,18 @@
 
 .text-column {
   margin-left: 150px;
-  max-width: 45%;
 }
 .text-column a {
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: #3F4549;
+}
+@media (max-width: 1050px) {
+  .text-column {
+    max-width: 85%;
+    margin-left: 30px;
+  }
 }
 
 .arrow-button {
@@ -70,6 +75,11 @@
 @media (max-width: 1300px) {
   .bottom-content {
     margin-top: 30px;
+  }
+}
+@media (max-width: 1050px) {
+  .bottom-content {
+    margin-left: 30px;
   }
 }
 
