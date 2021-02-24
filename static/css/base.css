@@ -185,6 +185,11 @@ nav {
   font-size: 24px;
   font-weight: 500;
 }
+@media (max-width: 400px) {
+  .number {
+    font-size: 16px;
+  }
+}
 
 .contact-data {
   margin-left: 20px;

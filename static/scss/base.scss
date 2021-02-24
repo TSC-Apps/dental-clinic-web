@@ -193,6 +193,10 @@ nav {
   color: variables.$text-black;
   font-size: 24px;
   font-weight: 500;
+
+  @media(max-width: 400px) {
+    font-size: 16px;
+  }
 }
 
 .contact-data {
