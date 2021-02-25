@@ -93,6 +93,10 @@
 .landing-contact {
   margin-right: 120px;
   margin-left: 0;
+
+  @media(max-width: 1050px) {
+    margin-top: 40px;
+  }
 }
 
 .landing-circle {
