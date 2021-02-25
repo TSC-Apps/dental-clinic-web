@@ -84,3 +84,17 @@
     margin-bottom: 20px;
   }
 }
+
+// classes to adjust contact section for landing page
+.landing-question {
+  margin-left: 0;
+}
+
+.landing-contact {
+  margin-right: 120px;
+  margin-left: 0;
+}
+
+.landing-circle {
+  background: variables.$background-gray;
+}

@@ -84,4 +84,17 @@
   }
 }
 
+.landing-question {
+  margin-left: 0;
+}
+
+.landing-contact {
+  margin-right: 120px;
+  margin-left: 0;
+}
+
+.landing-circle {
+  background: #D0D0D0;
+}
+
 /*# sourceMappingURL=index.css.map */

@@ -1,5 +1,10 @@
+.background-img {
+  height: 140%;
+  object-fit: cover;
+}
+
 .content {
-  width: 90%;
+  width: 80%;
   z-index: 2;
   position: absolute;
   margin-left: auto;
@@ -11,11 +16,11 @@
 
 .desc {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .desc img {
   width: 55%;
-  border-radius: 30px;
+  border-radius: 40px;
   object-fit: cover;
 }
 
@@ -25,19 +30,105 @@
 }
 .team-block h3 {
   font-size: 36px;
-  color: #3f4549;
+  color: #3F4549;
 }
 .team-block p {
   font-size: 16px;
   width: 80%;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .wavy-wave {
   position: absolute;
-  top: 700px;
+  top: 800px;
   left: 0;
   width: 100%;
+}
+
+.people {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.person-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+  background-color: white;
+  border-radius: 40px;
+  padding: 50px 0;
+  margin-bottom: 70px;
+}
+.person-box p {
+  text-align: justify;
+}
+
+.right-box {
+  margin-left: auto;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-images {
+  margin-right: -50px;
+}
+
+.base-portrait {
+  width: 256px;
+  height: 256px;
+  object-fit: cover;
+  border-radius: 40px;
+  margin-top: -60px;
+}
+
+.left-portrait {
+  margin-left: -20px;
+}
+
+.right-portrait {
+  margin-right: -20px;
+}
+
+.base-ellipse {
+  width: 80px;
+}
+
+.left-ellipse {
+  margin-left: -50px;
+}
+
+.right-ellipse {
+  margin-left: 190px;
+}
+
+.base-description {
+  width: 500px;
+  margin-left: 50px;
+}
+.base-description h3, .base-description h4 {
+  font-weight: 500;
+}
+.base-description h3 {
+  color: #3F4549;
+}
+.base-description p {
+  line-height: 1.5;
+}
+
+.left-description {
+  padding-right: 50px;
+}
+
+.right-description h3,
+.right-description h4 {
+  text-align: right;
 }
 
 /*# sourceMappingURL=team.css.map */
