@@ -230,9 +230,9 @@ nav {
   background-image: url("../img/burger.svg");
   width: 20px;
   background-size: 100%;
-
-  @media (min-width: 1050px) {
-    display: none;
+  display: none;
+  @media (max-width: 1050px) {
+    display: block;
   }
 }
 
@@ -272,6 +272,7 @@ nav {
 footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 150px;
 }
 
 .logo-column {

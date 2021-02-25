@@ -2,6 +2,11 @@
   height: 140%;
   object-fit: cover;
 }
+@media (max-width: 1050px) {
+  .background-img {
+    height: 250%;
+  }
+}
 
 .content {
   width: 80%;
@@ -23,6 +28,14 @@
   border-radius: 40px;
   object-fit: cover;
 }
+@media (max-width: 1050px) {
+  .desc {
+    flex-direction: column-reverse;
+  }
+  .desc img {
+    width: 100%;
+  }
+}
 
 .team-block {
   width: 40%;
@@ -38,12 +51,25 @@
   line-height: 1.5;
   text-align: justify;
 }
+@media (max-width: 1050px) {
+  .team-block {
+    width: 100%;
+  }
+  .team-block p {
+    width: 100%;
+  }
+}
 
 .wavy-wave {
   position: absolute;
   top: 800px;
   left: 0;
   width: 100%;
+}
+@media (max-width: 1050px) {
+  .wavy-wave {
+    display: none;
+  }
 }
 
 .people {
@@ -55,9 +81,8 @@
 
 .person-box {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 65%;
+  max-width: 900px;
   background-color: white;
   border-radius: 40px;
   padding: 50px 0;
@@ -66,18 +91,41 @@
 .person-box p {
   text-align: justify;
 }
+@media (max-width: 1050px) {
+  .person-box {
+    background-color: transparent;
+    flex-direction: column;
+    opacity: 1;
+  }
+}
 
 .right-box {
   margin-left: auto;
+}
+@media (max-width: 1050px) {
+  .right-box {
+    flex-direction: column-reverse;
+    margin-left: 0;
+  }
 }
 
 .images {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1050px) {
+  .images {
+    margin: 0 auto;
+  }
+}
 
 .right-images {
   margin-right: -50px;
+}
+@media (max-width: 1050px) {
+  .right-images {
+    margin: 0 auto;
+  }
 }
 
 .base-portrait {
@@ -91,9 +139,19 @@
 .left-portrait {
   margin-left: -20px;
 }
+@media (max-width: 1050px) {
+  .left-portrait {
+    margin-left: 0;
+  }
+}
 
 .right-portrait {
   margin-right: -20px;
+}
+@media (max-width: 1050px) {
+  .right-portrait {
+    margin-right: 0;
+  }
 }
 
 .base-ellipse {
@@ -109,10 +167,12 @@
 }
 
 .base-description {
-  width: 500px;
+  max-width: 500px;
   margin-left: 50px;
+  margin-right: 50px;
 }
-.base-description h3, .base-description h4 {
+.base-description h3,
+.base-description h4 {
   font-weight: 500;
 }
 .base-description h3 {
@@ -121,14 +181,37 @@
 .base-description p {
   line-height: 1.5;
 }
-
-.left-description {
-  padding-right: 50px;
+@media (max-width: 1050px) {
+  .base-description {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .base-description h3 {
+    display: none;
+  }
+  .base-description h4 {
+    text-align: left;
+  }
 }
 
 .right-description h3,
 .right-description h4 {
   text-align: right;
+}
+@media (max-width: 1050px) {
+  .right-description h4 {
+    text-align: left;
+  }
+}
+
+.mobile-title {
+  display: none;
+}
+@media (max-width: 1050px) {
+  .mobile-title {
+    display: block;
+    color: #3F4549;
+  }
 }
 
 /*# sourceMappingURL=team.css.map */

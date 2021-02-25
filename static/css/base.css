@@ -223,10 +223,11 @@ nav {
   background-image: url("../img/burger.svg");
   width: 20px;
   background-size: 100%;
+  display: none;
 }
-@media (min-width: 1050px) {
+@media (max-width: 1050px) {
   .hamburger {
-    display: none;
+    display: block;
   }
 }
 
@@ -262,6 +263,7 @@ nav {
 footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 150px;
 }
 
 .logo-column {

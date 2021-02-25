@@ -3,6 +3,10 @@
 .background-img {
   height: 140%;
   object-fit: cover;
+
+  @media (max-width: 1050px) {
+    height: 250%;
+  }
 }
 
 .content {
@@ -25,6 +29,14 @@
     border-radius: 40px;
     object-fit: cover;
   }
+
+  @media (max-width: 1050px) {
+    flex-direction: column-reverse;
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .team-block {
@@ -42,6 +54,13 @@
     line-height: 1.5;
     text-align: justify;
   }
+
+  @media (max-width: 1050px) {
+    width: 100%;
+    p {
+      width: 100%;
+    }
+  }
 }
 
 .wavy-wave {
@@ -49,6 +68,10 @@
   top: 800px;
   left: 0;
   width: 100%;
+
+  @media (max-width: 1050px) {
+    display: none;
+  }
 }
 
 .people {
@@ -60,9 +83,8 @@
 
 .person-box {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 65%;
+  max-width: 900px;
   background-color: white;
   border-radius: 40px;
   padding: 50px 0;
@@ -71,19 +93,38 @@
   p {
     text-align: justify;
   }
+
+  @media (max-width: 1050px) {
+    background-color: transparent;
+    flex-direction: column;
+    opacity: 1;
+  }
 }
 
 .right-box {
   margin-left: auto;
+
+  @media (max-width: 1050px) {
+    flex-direction: column-reverse;
+    margin-left: 0;
+  }
 }
 
 .images {
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1050px) {
+    margin: 0 auto;
+  }
 }
 
 .right-images {
   margin-right: -50px;
+
+  @media (max-width: 1050px) {
+    margin: 0 auto;
+  }
 }
 
 .base-portrait {
@@ -96,10 +137,18 @@
 
 .left-portrait {
   margin-left: -20px;
+
+  @media (max-width: 1050px) {
+    margin-left: 0;
+  }
 }
 
 .right-portrait {
   margin-right: -20px;
+
+  @media (max-width: 1050px) {
+    margin-right: 0;
+  }
 }
 
 .base-ellipse {
@@ -115,10 +164,12 @@
 }
 
 .base-description {
-  width: 500px;
+  max-width: 500px;
   margin-left: 50px;
+  margin-right: 50px;
 
-  h3, h4 {
+  h3,
+  h4 {
     font-weight: 500;
   }
 
@@ -129,15 +180,43 @@
   p {
     line-height: 1.5;
   }
+
+  @media (max-width: 1050px) {
+    margin-left: 0;
+    margin-right: 0;
+
+    h3 {
+      display: none;
+    }
+
+    h4 {
+      text-align: left;
+    }
+  }
 }
 
 .left-description {
-  padding-right: 50px;
 }
 
 .right-description {
+
   h3,
   h4 {
     text-align: right;
+  }
+
+  @media(max-width: 1050px) {
+    h4 {
+      text-align: left;
+    }
+  }
+}
+
+.mobile-title {
+  display: none;
+
+  @media (max-width: 1050px) {
+    display: block;
+    color: variables.$text-black;
   }
 }
