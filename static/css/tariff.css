@@ -1,3 +1,69 @@
+@media (max-width: 1050px) {
+  .background-img {
+    height: 250%;
+  }
+}
 
+.upper-content h3 {
+  color: #3F4549;
+  font-size: 36px;
+}
+.upper-content p {
+  margin-bottom: 30px;
+}
+
+.wave4 {
+  top: 1900px !important;
+}
+
+.wave5 {
+  top: 2400px !important;
+}
+
+.wave6 {
+  top: 2890px !important;
+}
+
+.icon-row {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  background: linear-gradient(#E1E25E, #D8EE50);
+  margin-right: 30px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.icon span {
+  margin-left: 5px;
+}
+
+.tariff-content {
+  margin-top: 150px;
+}
+.tariff-content h4 {
+  color: #3F4549;
+  margin-top: 50px;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  border-radius: 40px;
+  color: #3F4549;
+  margin-bottom: 20px;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.price {
+  margin-right: 10px;
+  text-align: right;
+}
 
 /*# sourceMappingURL=tariff.css.map */

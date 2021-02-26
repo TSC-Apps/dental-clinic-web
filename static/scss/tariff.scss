@@ -1,0 +1,77 @@
+@use 'variables';
+
+.background-img {
+  @media (max-width: 1050px) {
+    height: 250%;
+  }
+}
+
+.upper-content {
+  h3 {
+    color: variables.$text-black;
+    font-size: 36px;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+.wave4 {
+  top: 1900px !important;
+}
+
+.wave5 {
+  top: 2400px !important;
+}
+
+.wave6 {
+  top: 2890px !important;
+}
+
+.icon-row {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  background: linear-gradient(variables.$lime1, variables.$lime2);
+  margin-right: 30px;
+  padding: 5px 20px;
+  border-radius: 20px;
+
+  span {
+    margin-left: 5px;
+  }
+}
+
+.tariff-content {
+  margin-top: 150px;
+  h4 {
+    color: variables.$text-black;
+    margin-top: 50px;
+  }
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  border-radius: 40px;
+  color: variables.$text-black;
+  margin-bottom: 20px;
+
+  // TODO
+  // box-shadow: 5px 10px black;
+
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.price {
+  margin-right: 10px;
+  text-align: right;
+}

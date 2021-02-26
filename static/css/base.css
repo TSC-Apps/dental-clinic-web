@@ -353,4 +353,16 @@ footer {
   left: 0;
 }
 
+.wave1 {
+  top: 500px !important;
+}
+
+.wave2 {
+  top: 1000px !important;
+}
+
+.wave3 {
+  top: 1400px !important;
+}
+
 /*# sourceMappingURL=base.css.map */
