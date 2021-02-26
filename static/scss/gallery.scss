@@ -1,0 +1,43 @@
+@use 'variables';
+
+.content {
+  width: 80%;
+  z-index: 2;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 200px;
+  right: 0;
+  left: 0;
+}
+
+.upper-content {
+  h3 {
+    color: variables.$text-black;
+    font-size: 36px;
+  }
+
+  p {
+    max-width: 750px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+}
+
+#lightgallery {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  max-width: 400px;
+  border-radius: 40px;
+}

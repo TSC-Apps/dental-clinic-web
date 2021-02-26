@@ -326,4 +326,16 @@ footer {
   margin-left: 20px;
 }
 
+.wavy-wave {
+  position: absolute;
+  top: 800px;
+  left: 0;
+  width: 100%;
+}
+@media (max-width: 1050px) {
+  .wavy-wave {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=base.css.map */

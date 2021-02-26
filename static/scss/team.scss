@@ -63,17 +63,6 @@
   }
 }
 
-.wavy-wave {
-  position: absolute;
-  top: 800px;
-  left: 0;
-  width: 100%;
-
-  @media (max-width: 1050px) {
-    display: none;
-  }
-}
-
 .people {
   width: 100%;
   margin-top: 100px;
@@ -157,6 +146,10 @@
 
 .left-ellipse {
   margin-left: -50px;
+
+  @media (max-width: 1050px) {
+    margin-left: -30px;
+  }
 }
 
 .right-ellipse {

@@ -332,3 +332,16 @@ footer {
 .contact-data {
   margin-left: 20px;
 }
+
+// GLOBAL UTILS
+
+.wavy-wave {
+  position: absolute;
+  top: 800px;
+  left: 0;
+  width: 100%;
+
+  @media (max-width: 1050px) {
+    display: none;
+  }
+}
