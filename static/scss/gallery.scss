@@ -1,7 +1,7 @@
 @use 'variables';
 
 .content {
-  width: 80%;
+  width: 90%;
   z-index: 2;
   position: absolute;
   margin-left: auto;
@@ -38,6 +38,6 @@
 }
 
 .thumbnail {
-  max-width: 400px;
+  max-width: 450px;
   border-radius: 40px;
 }

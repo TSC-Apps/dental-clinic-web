@@ -78,8 +78,10 @@ body {
 }
 
 nav {
-  width: 100%;
+  width: 90%;
   top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   z-index: 3;
@@ -93,13 +95,13 @@ nav {
     z-index: 5;
     background-color: white;
     padding: 10px 0;
+    width: 100%;
   }
 }
 
 // LOGO
 
 .logo {
-  margin-left: 150px;
   display: flex;
 
   img {
@@ -129,7 +131,6 @@ nav {
 
 .navbar {
   display: flex;
-  margin-right: 50px;
 
   @media (max-width: 1050px) {
     display: none;
@@ -215,7 +216,7 @@ footer {
   margin-top: 150px;
   width: 100%;
 
-  @media(max-width: 1050px) {
+  @media (max-width: 1050px) {
     flex-direction: column;
   }
 }
@@ -254,7 +255,7 @@ footer {
     text-decoration: none;
   }
 
-  @media(max-width: 1050px) {
+  @media (max-width: 1050px) {
     display: none;
   }
 }
@@ -262,12 +263,11 @@ footer {
 .tsc-sign-mobile {
   display: none;
 
-  @media(max-width: 1050px) {
+  @media (max-width: 1050px) {
     display: flex;
     margin-top: 60px;
   }
 }
-
 
 .phone-circle {
   width: 50px;
@@ -298,7 +298,7 @@ footer {
     margin-top: 1px;
   }
 
-  @media(max-width: 1050px) {
+  @media (max-width: 1050px) {
     margin-left: 0;
     margin-top: 60px;
   }
