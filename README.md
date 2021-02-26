@@ -17,3 +17,6 @@
 - create thumbnails for gallery
 - hovers for gallery
 - navlinks
+- animations
+- hovers
+- shadows in 'Tariff'
