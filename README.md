@@ -15,3 +15,4 @@
 - create separate images for 'Team' page
 - adjust green circle in 'Team'
 - create thumbnails for gallery
+- hovers for gallery

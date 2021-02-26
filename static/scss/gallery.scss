@@ -1,5 +1,11 @@
 @use 'variables';
 
+.background-img {
+  @media (max-width: 1050px) {
+    height: 250%;
+  }
+}
+
 .content {
   width: 90%;
   z-index: 2;
@@ -9,6 +15,18 @@
   top: 200px;
   right: 0;
   left: 0;
+}
+
+.wave1 {
+  top: 500px !important;
+}
+
+.wave2 {
+  top: 1000px !important;
+}
+
+.wave3 {
+  top: 1400px !important;
 }
 
 .upper-content {
@@ -35,9 +53,19 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+
+  @media (max-width: 1050px) {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
 }
 
 .thumbnail {
   max-width: 450px;
   border-radius: 40px;
+
+  @media (max-width: 1050px) {
+    margin-bottom: 30px;
+  }
 }
