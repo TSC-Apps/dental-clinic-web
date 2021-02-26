@@ -16,3 +16,4 @@
 - adjust green circle in 'Team'
 - create thumbnails for gallery
 - hovers for gallery
+- navlinks
