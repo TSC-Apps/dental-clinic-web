@@ -149,6 +149,15 @@ a[href="index.html"] {
     color: inherit;
     font-weight: 500;
     font-size: 18px;
+    transition: all ease-in-out 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .active {
+    color: variables.$text-black;
   }
 
   ul {
