@@ -105,6 +105,32 @@ nav {
   }
 }
 
+nav.scrolled {
+  transition: padding 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+}
+@media (min-width: 1050px) {
+  nav.scrolled {
+    background: white;
+    top: 0;
+    width: 100%;
+    padding: 30px 0;
+    -webkit-box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.05);
+  }
+  nav.scrolled .logo {
+    padding-left: 30px;
+  }
+  nav.scrolled .logo img {
+    width: 39px;
+  }
+  nav.scrolled ul {
+    padding-right: 30px;
+  }
+}
+
 a[href="index.html"] {
   text-decoration: none;
 }
