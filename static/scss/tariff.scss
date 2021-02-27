@@ -1,12 +1,6 @@
 @use 'variables';
 @import "mixins";
 
-.background-img {
-  @media (max-width: 1050px) {
-    height: 250%;
-  }
-}
-
 .upper-content {
   h3 {
     color: variables.$text-black;

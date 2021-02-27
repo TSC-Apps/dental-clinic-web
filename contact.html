@@ -17,11 +17,26 @@
     />
     <link rel="stylesheet" href="static/css/base.css" />
     <link rel="stylesheet" href="static/css/contact.css" />
+    <link rel="stylesheet" href="static/css/gallery.css" />
     <link
       rel="icon"
       href="static/img/logo.svg"
       sizes="any"
       type="image/svg+xml"
+    />
+
+    <!-- gallery stuff -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="bower_components/lightgallery.js/dist/css/lightgallery.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
     />
   </head>
 
@@ -75,13 +90,121 @@
     </div>
 
     <div class="content">
-      <!-- here content goes actual content -->
+      <div class="upper-content">
+        <h3>Kontakt</h3>
+        <p>
+          Zapraszamy do kontaktu telefonicznego i rejestracji w godzinach pracy
+          Kliniki Uśmiechu. Dzięki wysokiej dyspozycyjności naszego zespołu
+          możliwe jest umówienie wizyty w dogodnym dla Państwa terminie.
+        </p>
+      </div>
 
-      <!-- uncomment footer, when done with other stuff -->
+      <div class="contact-content">
+        <div class="upper-boxes">
+          <div class="box">
+            <div class="title">Jak się z nami skontaktować?</div>
+            <div class="contact-options">
+              <div class="contact">
+                <div class="phone-circle">
+                  <img src="static/img/phone.svg" class="phone" />
+                </div>
 
-      <!-- <footer>
+                <div class="contact-data">
+                  <span>Numer stacjonarny</span>
+                  <span class="number">94 35 20 354</span>
+                </div>
+              </div>
+
+              <div class="contact">
+                <div class="phone-circle">
+                  <img src="static/img/smartphone.svg" class="phone smart" />
+                </div>
+
+                <div class="contact-data">
+                  <span>Lekarz dentysta</span>
+                  <span class="number">601 621 774</span>
+                </div>
+              </div>
+
+              <div class="contact">
+                <div class="phone-circle">
+                  <img src="static/img/smartphone.svg" class="phone smart" />
+                </div>
+
+                <div class="contact-data">
+                  <span>Higienistka stom.</span>
+                  <span class="number">698 522 599</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="title">Kiedy jesteśmy do Waszej dyspozycji?</div>
+            <div class="availability-entries">
+              <div class="availability-entry">
+                <div class="day">Poniedziałek</div>
+                <div class="time">13:00 - 19:00</div>
+              </div>
+              <div class="availability-entry">
+                <div class="day">Wtorek</div>
+                <div class="time">8:00 - 14:00</div>
+              </div>
+              <div class="availability-entry">
+                <div class="day">Środa</div>
+                <div class="time">13:00 - 19:00</div>
+              </div>
+              <div class="availability-entry">
+                <div class="day">Czwartek</div>
+                <div class="time">8:00 - 14:00</div>
+              </div>
+              <div class="availability-entry">
+                <div class="day">Piątek</div>
+                <div class="time">8:00 - 14:00</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="title">Jak nas znaleźć</div>
+            <div class="find-us-content">
+              <div>
+                <div>Nasz adres</div></br>
+                <div>
+                  Kołobrzeg, 78-100
+                </div>
+                <div>
+                  <b>ul. Słowińców 9/41</b>
+                </div>
+              </div>
+              <div class="icon">
+                <img src="static/img/location.svg" />
+                <span>Znajdź na mapie</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="mapid"></div>
+        <div id="lightgallery">
+          <div class="gallery-row">
+            <a class="item" href="static/img/Kontakt.jpg">
+              <img
+                class="thumbnail"
+                src="static/img/Kontakt.jpg"
+                alt="Building"
+              />
+            </a>
+            <a class="item" href="static/img/Kontakt1.jpg">
+              <img
+                class="thumbnail"
+                src="static/img/Kontakt1.jpg"
+                alt="Building"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer>
         <div class="logo-column">
-
           <div class="logo footer-logo">
             <img src="static/img/logo.svg" alt="tooth" />
             <div class="logo-text">
@@ -91,16 +214,15 @@
           </div>
 
           <div class="tsc-sign">
-            <p>Projekt i wykonanie</p><a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
+            <p>Projekt i wykonanie</p>
+            <a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
           </div>
         </div>
 
         <div>
           <span class="bottom-questions">Masz pytania? Zadzwoń do nas.</span>
           <div class="contact-options">
-
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/phone.svg" class="phone" />
               </div>
@@ -109,11 +231,9 @@
                 <span>Numer stacjonarny</span>
                 <span class="number">94 35 20 354</span>
               </div>
-
             </div>
 
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/smartphone.svg" class="phone smart" />
               </div>
@@ -122,11 +242,9 @@
                 <span>Lekarz dentysta</span>
                 <span class="number">601 621 774</span>
               </div>
-
             </div>
 
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/smartphone.svg" class="phone smart" />
               </div>
@@ -135,22 +253,32 @@
                 <span>Higienistka stom.</span>
                 <span class="number">698 522 599</span>
               </div>
-
             </div>
           </div>
         </div>
 
-
         <div class="tsc-sign tsc-sign-mobile">
-          <p>Projekt i wykonanie</p><a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
-          <p>
+          <p>Projekt i wykonanie</p>
+          <a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
+          <p></p>
         </div>
-
-      </footer> -->
+      </footer>
     </div>
 
     <div class="bg-img"></div>
 
+    <script src="bower_components/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        selector: ".item",
+      });
+    </script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
     <script src="static/js/base.js"></script>
+    <script src="static/js/map.js"></script>
   </body>
 </html>

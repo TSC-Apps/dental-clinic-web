@@ -1,14 +1,6 @@
 @use 'variables';
 @import "mixins";
 
-.background-img {
-  height: 140%;
-
-  @media (max-width: 1050px) {
-    height: 250%;
-  }
-}
-
 .desc {
   display: flex;
   justify-content: space-between;
