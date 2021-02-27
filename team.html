@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Klinika uśmiechu</title>
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="stomatologia, dentysta, zęby, kołobrzeg, kicerman"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>Klinika uśmiechu</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="stomatologia, dentysta, zęby, kołobrzeg, kicerman">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/base.css" />
+    <link rel="stylesheet" href="static/css/team.css" />
+    <link
+      rel="icon"
+      href="static/img/logo.svg"
+      sizes="any"
+      type="image/svg+xml"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/base.css">
-  <link rel="stylesheet" href="static/css/team.css">
-  <link rel="icon" href="static/img/logo.svg" sizes="any" type="image/svg+xml">
-</head>
-
-<body>
-  <div>
+  <body>
     <div class="images-container">
-      <img src="static/img/Galeria4mono.jpg" class="background-img" alt="dental clinic" />
       <img src="static/img/wave2.svg" class="wavy-wave" alt="white wave" />
 
       <div class="contact-bar">
@@ -32,15 +40,15 @@
       </div>
 
       <nav>
-        <!-- <a href="index.html"> -->
-        <div class="logo">
-          <img src="static/img/logo.svg" alt="tooth" />
-          <div class="logo-text">
-            <span class="normal-weight">KLINIKA</span>
-            <span class="medium-weight">UŚMIECHU</span>
+        <a href="index.html">
+          <div class="logo">
+            <img src="static/img/logo.svg" alt="tooth" />
+            <div class="logo-text">
+              <span class="normal-weight">KLINIKA</span>
+              <span class="medium-weight">UŚMIECHU</span>
+            </div>
           </div>
-        </div>
-        <!-- </a> -->
+        </a>
 
         <div class="navbar">
           <ul>
@@ -54,7 +62,7 @@
 
         <button onclick="handleHamburger()" class="hamburger"></button>
         <!-- js can edit only inlin -->
-        <div class="menu" style="display: none;">
+        <div class="menu" style="display: none">
           <ul>
             <li><a href="index.html">Witamy</a></li>
             <li><a href="team.html">Nasz zespół</a></li>
@@ -63,7 +71,6 @@
             <li><a href="contact.html">Kontakt</a></li>
           </ul>
         </div>
-
       </nav>
     </div>
 
@@ -71,33 +78,47 @@
       <div class="desc">
         <div class="team-block">
           <h3>Nasz zespół</h3>
-          <p>W naszym gabinecie zespół tworzy lekarz dentysta oraz&nbsp;dyplomowana higienistka stomatologiczna. Ich
-            wiedza,
-            doświadczenie oraz bliska współpraca pozwala zadbać o&nbsp;każdego pacjenta. Dzięki nim możesz mieć zdrowe
-            zęby i&nbsp;piękny uśmiech.</p>
-        </div class="team-block">
+          <p>
+            W naszym gabinecie zespół tworzy lekarz dentysta
+            oraz&nbsp;dyplomowana higienistka stomatologiczna. Ich wiedza,
+            doświadczenie oraz bliska współpraca pozwala zadbać o&nbsp;każdego
+            pacjenta. Dzięki nim możesz mieć zdrowe zęby i&nbsp;piękny uśmiech.
+          </p>
+        </div>
 
-        <img src="static/img/Nasz-zespol.jpg" alt="our team (dentist and assistent)">
-
+        <img
+          src="static/img/Nasz-zespol.jpg"
+          alt="our team (dentist and assistent)"
+        />
       </div>
 
       <div class="people">
-
         <div class="person-box">
           <h3 class="mobile-title">Agnieszka Kicerman</h3>
           <div class="images">
-            <img src="static/img/ellipse.svg" class="base-ellipse left-ellipse" alt="green ellipse" />
-            <img src="static/img/Nasz-zespol1.jpg" class="base-portrait left-portrait" alt="dentist" />
+            <img
+              src="static/img/ellipse.svg"
+              class="base-ellipse left-ellipse"
+              alt="green ellipse"
+            />
+            <img
+              src="static/img/Nasz-zespol1.jpg"
+              class="base-portrait left-portrait"
+              alt="dentist"
+            />
           </div>
           <div class="base-description left-description">
             <h3>Agnieszka Kicerman</h3>
-            <h4>Lekarz dentysta, specjalista stomatologii ogólnej
-              pierwszego stopnia</h4>
+            <h4>
+              Lekarz dentysta, specjalista stomatologii ogólnej pierwszego
+              stopnia
+            </h4>
             <p>
               Ukończyła Akademie Medyczną im. Karola Marcinkowskiego w Poznaniu,
-              a w kolejnych latach uzyskała specjalizację pierwszego stopnia z zakresu stomatologii ogólnej. Posiada
-              wieloletnie doświadczenie zawodowe, dzięki którem gwarantuje profesjonalną opiekę stomatologiczną oraz
-              indywidualne podejście do każdego pacjenta.
+              a w kolejnych latach uzyskała specjalizację pierwszego stopnia z
+              zakresu stomatologii ogólnej. Posiada wieloletnie doświadczenie
+              zawodowe, dzięki którem gwarantuje profesjonalną opiekę
+              stomatologiczną oraz indywidualne podejście do każdego pacjenta.
             </p>
           </div>
         </div>
@@ -107,15 +128,25 @@
             <h3>Magdalena Konieczna</h3>
             <h4>Dyplomowana higienistka stomatologiczna</h4>
             <p>
-              W gabinecie zajmuje się wykonywaniem profesjonalnych zabiegów higienizacyjnych oraz czynną asystą podczas
-              zabiegów stomatologi cznych. Jej zadaniem jest promocja zdrowia jamy ustnej i organizacja pracy gabinetu.
-              Nieustannie dba o komfort i zadowolenie każdego pacjenta.
+              W gabinecie zajmuje się wykonywaniem profesjonalnych zabiegów
+              higienizacyjnych oraz czynną asystą podczas zabiegów stomatologi
+              cznych. Jej zadaniem jest promocja zdrowia jamy ustnej i
+              organizacja pracy gabinetu. Nieustannie dba o komfort i
+              zadowolenie każdego pacjenta.
             </p>
           </div>
 
           <div class="images right-images">
-            <img src="static/img/ellipse.svg" class="base-ellipse right-ellipse" alt="green ellipse" />
-            <img src="static/img/Nasz-zespol2.jpg" class="base-portrait right-portrait" alt="dentist" />
+            <img
+              src="static/img/ellipse.svg"
+              class="base-ellipse right-ellipse"
+              alt="green ellipse"
+            />
+            <img
+              src="static/img/Nasz-zespol2.jpg"
+              class="base-portrait right-portrait"
+              alt="dentist"
+            />
           </div>
           <h3 class="mobile-title">Magdalena Konieczna</h3>
         </div>
@@ -123,7 +154,6 @@
 
       <footer>
         <div class="logo-column">
-
           <div class="logo footer-logo">
             <img src="static/img/logo.svg" alt="tooth" />
             <div class="logo-text">
@@ -133,16 +163,15 @@
           </div>
 
           <div class="tsc-sign">
-            <p>Projekt i wykonanie</p><a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
+            <p>Projekt i wykonanie</p>
+            <a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
           </div>
         </div>
 
         <div>
           <span class="bottom-questions">Masz pytania? Zadzwoń do nas.</span>
           <div class="contact-options">
-
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/phone.svg" class="phone" />
               </div>
@@ -151,11 +180,9 @@
                 <span>Numer stacjonarny</span>
                 <span class="number">94 35 20 354</span>
               </div>
-
             </div>
 
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/smartphone.svg" class="phone smart" />
               </div>
@@ -164,11 +191,9 @@
                 <span>Lekarz dentysta</span>
                 <span class="number">601 621 774</span>
               </div>
-
             </div>
 
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/smartphone.svg" class="phone smart" />
               </div>
@@ -177,23 +202,20 @@
                 <span>Higienistka stom.</span>
                 <span class="number">698 522 599</span>
               </div>
-
             </div>
           </div>
         </div>
 
-
         <div class="tsc-sign tsc-sign-mobile">
-          <p>Projekt i wykonanie</p><a href="mailto:webdesign@frankiewicz.com.pl">TSC</a><p>
+          <p>Projekt i wykonanie</p>
+          <a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
+          <p></p>
         </div>
-
       </footer>
-
     </div>
 
-  </div>
+    <div class="bg-img"></div>
 
-  <script src="static/js/base.js"></script>
-</body>
-
+    <script src="static/js/base.js"></script>
+  </body>
 </html>

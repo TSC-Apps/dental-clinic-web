@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Klinika uśmiechu</title>
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="stomatologia, dentysta, zęby, kołobrzeg, kicerman"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>Klinika uśmiechu</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="stomatologia, dentysta, zęby, kołobrzeg, kicerman">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/base.css" />
+    <link rel="stylesheet" href="static/css/gallery.css" />
+    <link
+      rel="icon"
+      href="static/img/logo.svg"
+      sizes="any"
+      type="image/svg+xml"
+    />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/base.css">
-  <link rel="stylesheet" href="static/css/gallery.css">
-  <link rel="icon" href="static/img/logo.svg" sizes="any" type="image/svg+xml">
+    <!-- gallery stuff -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="bower_components/lightgallery.js/dist/css/lightgallery.min.css"
+    />
+  </head>
 
-  <!-- gallery stuff -->
-  <link type="text/css" rel="stylesheet" href="bower_components/lightgallery.js/dist/css/lightgallery.min.css" />
-
-</head>
-
-<body>
-  <div>
+  <body>
     <div class="images-container">
-      <img src="static/img/Galeria4mono.jpg" class="background-img" alt="dental clinic" />
-      <img src="static/img/wave2.svg" class="wavy-wave wave1" alt="white wave" />
-      <img src="static/img/wave2.svg" class="wavy-wave wave2" alt="white wave" />
-      <img src="static/img/wave2.svg" class="wavy-wave wave3" alt="white wave" />
+      <img
+        src="static/img/wave2.svg"
+        class="wavy-wave wave1"
+        alt="white wave"
+      />
+      <img
+        src="static/img/wave2.svg"
+        class="wavy-wave wave2"
+        alt="white wave"
+      />
+      <img
+        src="static/img/wave2.svg"
+        class="wavy-wave wave3"
+        alt="white wave"
+      />
 
       <div class="contact-bar">
         <div class="text-container">
@@ -38,15 +61,15 @@
       </div>
 
       <nav>
-        <!-- <a href="index.html"> -->
-        <div class="logo">
-          <img src="static/img/logo.svg" alt="tooth" />
-          <div class="logo-text">
-            <span class="normal-weight">KLINIKA</span>
-            <span class="medium-weight">UŚMIECHU</span>
+        <a href="index.html">
+          <div class="logo">
+            <img src="static/img/logo.svg" alt="tooth" />
+            <div class="logo-text">
+              <span class="normal-weight">KLINIKA</span>
+              <span class="medium-weight">UŚMIECHU</span>
+            </div>
           </div>
-        </div>
-        <!-- </a> -->
+        </a>
 
         <div class="navbar">
           <ul>
@@ -60,7 +83,7 @@
 
         <button onclick="handleHamburger()" class="hamburger"></button>
         <!-- js can edit only inlin -->
-        <div class="menu" style="display: none;">
+        <div class="menu" style="display: none">
           <ul>
             <li><a href="index.html">Witamy</a></li>
             <li><a href="team.html">Nasz zespół</a></li>
@@ -69,86 +92,144 @@
             <li><a href="contact.html">Kontakt</a></li>
           </ul>
         </div>
-
       </nav>
     </div>
 
     <div class="content">
       <div class="upper-content">
         <h3>Galeria</h3>
-        <p>Oprócz wykwalifikowanego zespołu medycznego oraz indywidualnego podejścia do pacjenta, możemy pochwalić się
-          wysokiej jakości wyposażeniem naszych
-          gabinetów. Placówka jest w pełni przystosowana do potrzeb pacjentów
-          niepełnosprawnych.</p>
+        <p>
+          Oprócz wykwalifikowanego zespołu medycznego oraz indywidualnego
+          podejścia do pacjenta, możemy pochwalić się wysokiej jakości
+          wyposażeniem naszych gabinetów. Placówka jest w pełni przystosowana do
+          potrzeb pacjentów niepełnosprawnych.
+        </p>
       </div>
 
       <div id="lightgallery">
         <div class="gallery-row">
-
           <a class="item" href="static/img/Nasz-zespol.jpg">
-            <img class="thumbnail" src="static/img/Nasz-zespol.jpg" alt="Our team" />
+            <img
+              class="thumbnail"
+              src="static/img/Nasz-zespol.jpg"
+              alt="Our team"
+            />
           </a>
           <a class="item" href="static/img/Galeria.jpg">
-            <img class="thumbnail" src="static/img/Galeria.jpg" alt="Ms. doctor working"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria.jpg"
+              alt="Ms. doctor working"
+            />
           </a>
           <a class="item" href="static/img/Galeria1.jpg">
-            <img class="thumbnail" src="static/img/Galeria1.jpg" alt="Ms. doctor working"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria1.jpg"
+              alt="Ms. doctor working"
+            />
           </a>
         </div>
 
         <div class="gallery-row">
           <a class="item" href="static/img/Galeria2.jpg">
-            <img class="thumbnail" src="static/img/Galeria2.jpg" alt="Ms. assistent working"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria2.jpg"
+              alt="Ms. assistent working"
+            />
           </a>
           <a class="item" href="static/img/Galeria3.jpg">
-            <img class="thumbnail" src="static/img/Galeria3.jpg" alt="Ms. assistent working"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria3.jpg"
+              alt="Ms. assistent working"
+            />
           </a>
           <a class="item" href="static/img/Galeria4.jpg">
-            <img class="thumbnail" src="static/img/Galeria4.jpg" alt="Dental clinic"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria4.jpg"
+              alt="Dental clinic"
+            />
           </a>
         </div>
 
         <div class="gallery-row">
           <a class="item" href="static/img/Galeria5.jpg">
-            <img class="thumbnail" src="static/img/Galeria5.jpg"  alt="Dental clinic" />
+            <img
+              class="thumbnail"
+              src="static/img/Galeria5.jpg"
+              alt="Dental clinic"
+            />
           </a>
           <a class="item" href="static/img/Galeria6.jpg">
-            <img class="thumbnail" src="static/img/Galeria6.jpg"  alt="Dental clinic" />
+            <img
+              class="thumbnail"
+              src="static/img/Galeria6.jpg"
+              alt="Dental clinic"
+            />
           </a>
           <a class="item" href="static/img/Galeria7.jpg">
-            <img class="thumbnail" src="static/img/Galeria7.jpg" alt="Dental tools"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria7.jpg"
+              alt="Dental tools"
+            />
           </a>
         </div>
 
         <div class="gallery-row">
           <a class="item" href="static/img/Galeria8.jpg">
-            <img class="thumbnail" src="static/img/Galeria8.jpg" alt="Dental tools"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria8.jpg"
+              alt="Dental tools"
+            />
           </a>
           <a class="item" href="static/img/Galeria9.jpg">
-            <img class="thumbnail" src="static/img/Galeria9.jpg" alt="Dental clinic"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria9.jpg"
+              alt="Dental clinic"
+            />
           </a>
           <a class="item" href="static/img/Galeria10.jpg">
-            <img class="thumbnail" src="static/img/Galeria10.jpg" alt="Dental clinic"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria10.jpg"
+              alt="Dental clinic"
+            />
           </a>
         </div>
 
         <div class="gallery-row">
           <a class="item" href="static/img/Galeria11.jpg">
-            <img class="thumbnail" src="static/img/Galeria11.jpg" alt="Dental clinic"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria11.jpg"
+              alt="Dental clinic"
+            />
           </a>
           <a class="item" href="static/img/Galeria12.jpg">
-            <img class="thumbnail" src="static/img/Galeria12.jpg" alt="Dental clinic"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria12.jpg"
+              alt="Dental clinic"
+            />
           </a>
           <a class="item" href="static/img/Galeria13.jpg">
-            <img class="thumbnail" src="static/img/Galeria13.jpg" alt="Dental clinic"/>
+            <img
+              class="thumbnail"
+              src="static/img/Galeria13.jpg"
+              alt="Dental clinic"
+            />
           </a>
         </div>
       </div>
 
-
       <footer>
         <div class="logo-column">
-
           <div class="logo footer-logo">
             <img src="static/img/logo.svg" alt="tooth" />
             <div class="logo-text">
@@ -158,16 +239,15 @@
           </div>
 
           <div class="tsc-sign">
-            <p>Projekt i wykonanie</p><a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
+            <p>Projekt i wykonanie</p>
+            <a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
           </div>
         </div>
 
         <div>
           <span class="bottom-questions">Masz pytania? Zadzwoń do nas.</span>
           <div class="contact-options">
-
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/phone.svg" class="phone" />
               </div>
@@ -176,11 +256,9 @@
                 <span>Numer stacjonarny</span>
                 <span class="number">94 35 20 354</span>
               </div>
-
             </div>
 
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/smartphone.svg" class="phone smart" />
               </div>
@@ -189,11 +267,9 @@
                 <span>Lekarz dentysta</span>
                 <span class="number">601 621 774</span>
               </div>
-
             </div>
 
             <div class="contact">
-
               <div class="phone-circle">
                 <img src="static/img/smartphone.svg" class="phone smart" />
               </div>
@@ -202,30 +278,26 @@
                 <span>Higienistka stom.</span>
                 <span class="number">698 522 599</span>
               </div>
-
             </div>
           </div>
         </div>
 
-
         <div class="tsc-sign tsc-sign-mobile">
-          <p>Projekt i wykonanie</p><a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
-          <p>
+          <p>Projekt i wykonanie</p>
+          <a href="mailto:webdesign@frankiewicz.com.pl">TSC</a>
+          <p></p>
         </div>
-
       </footer>
-
     </div>
 
-  </div>
+    <div class="bg-img"></div>
 
-  <script src="static/js/base.js"></script>
-  <script src="bower_components/lightgallery.js/dist/js/lightgallery.min.js"></script>
-  <script type="text/javascript">
-    lightGallery(document.getElementById('lightgallery'), {
-      selector: '.item'
-    });
-  </script>
-</body>
-
+    <script src="static/js/base.js"></script>
+    <script src="bower_components/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        selector: ".item",
+      });
+    </script>
+  </body>
 </html>

@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Klinika uśmiechu</title>
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="stomatologia, dentysta, zęby, kołobrzeg, kicerman"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>Klinika uśmiechu</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="stomatologia, dentysta, zęby, kołobrzeg, kicerman">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/base.css" />
+    <link rel="stylesheet" href="static/css/contact.css" />
+    <link
+      rel="icon"
+      href="static/img/logo.svg"
+      sizes="any"
+      type="image/svg+xml"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/base.css">
-  <link rel="stylesheet" href="static/css/contact.css">
-  <link rel="icon" href="static/img/logo.svg" sizes="any" type="image/svg+xml">
-</head>
-
-<body>
-  <div>
+  <body>
     <div class="images-container">
-      <img src="static/img/Galeria4mono.jpg" class="background-img" alt="dental clinic" />
       <img src="static/img/wave2.svg" class="wavy-wave" alt="white wave" />
 
       <div class="contact-bar">
@@ -32,15 +40,15 @@
       </div>
 
       <nav>
-        <!-- <a href="index.html"> -->
-        <div class="logo">
-          <img src="static/img/logo.svg" alt="tooth" />
-          <div class="logo-text">
-            <span class="normal-weight">KLINIKA</span>
-            <span class="medium-weight">UŚMIECHU</span>
+        <a href="index.html">
+          <div class="logo">
+            <img src="static/img/logo.svg" alt="tooth" />
+            <div class="logo-text">
+              <span class="normal-weight">KLINIKA</span>
+              <span class="medium-weight">UŚMIECHU</span>
+            </div>
           </div>
-        </div>
-        <!-- </a> -->
+        </a>
 
         <div class="navbar">
           <ul>
@@ -54,7 +62,7 @@
 
         <button onclick="handleHamburger()" class="hamburger"></button>
         <!-- js can edit only inlin -->
-        <div class="menu" style="display: none;">
+        <div class="menu" style="display: none">
           <ul>
             <li><a href="index.html">Witamy</a></li>
             <li><a href="team.html">Nasz zespół</a></li>
@@ -63,12 +71,10 @@
             <li><a href="contact.html">Kontakt</a></li>
           </ul>
         </div>
-
       </nav>
     </div>
 
     <div class="content">
-
       <!-- here content goes actual content -->
 
       <!-- uncomment footer, when done with other stuff -->
@@ -141,13 +147,10 @@
         </div>
 
       </footer> -->
-
-
     </div>
 
-  </div>
+    <div class="bg-img"></div>
 
-  <script src="static/js/base.js"></script>
-</body>
-
+    <script src="static/js/base.js"></script>
+  </body>
 </html>
