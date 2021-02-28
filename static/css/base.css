@@ -99,7 +99,7 @@ nav {
     top: 0;
     z-index: 5;
     background-color: white;
-    padding: 10px 0;
+    height: 60px;
     width: 100%;
     margin: 0 auto;
   }
@@ -223,7 +223,7 @@ a[href="index.html"] {
 
 .menu {
   position: absolute;
-  top: 0;
+  top: 60px;
   left: 0;
   z-index: 3;
   background-color: white;
@@ -380,7 +380,7 @@ footer {
 }
 
 .content {
-  width: 80%;
+  width: 90%;
   z-index: 2;
   position: absolute;
   margin-left: auto;
