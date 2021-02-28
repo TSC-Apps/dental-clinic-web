@@ -70,18 +70,13 @@
   .gallery-row .item {
     width: 100%;
     margin-right: 0;
+    margin-bottom: 30px;
   }
 }
 
 .thumbnail {
   width: 100%;
   height: 100%;
-}
-@media (max-width: 1050px) {
-  .thumbnail {
-    margin-bottom: 30px;
-    width: 100%;
-  }
 }
 
 /*# sourceMappingURL=gallery.css.map */
