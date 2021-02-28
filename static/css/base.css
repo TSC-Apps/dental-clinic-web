@@ -391,6 +391,7 @@ footer {
 }
 @media (max-width: 1050px) {
   .content {
+    width: 90%;
     top: 120px !important;
   }
 }
