@@ -179,9 +179,6 @@ a[href="index.html"] {
 .navbar a:hover {
   opacity: 0.8;
 }
-.navbar .active {
-  color: #3F4549;
-}
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -191,6 +188,10 @@ a[href="index.html"] {
   display: inline;
   float: right;
   margin-left: 50px;
+}
+
+.active {
+  color: #3F4549 !important;
 }
 
 .hamburger {

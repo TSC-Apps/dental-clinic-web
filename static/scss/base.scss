@@ -181,10 +181,6 @@ a[href="index.html"] {
     }
   }
 
-  .active {
-    color: variables.$text-black;
-  }
-
   ul {
     list-style-type: none;
     margin: 0;
@@ -195,6 +191,10 @@ a[href="index.html"] {
       margin-left: 50px;
     }
   }
+}
+
+.active {
+  color: variables.$text-black !important;
 }
 
 // BURGER
