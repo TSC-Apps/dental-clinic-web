@@ -94,6 +94,9 @@ nav {
   align-items: center;
   position: fixed;
 }
+nav a {
+  text-decoration: none;
+}
 @media (max-width: 1050px) {
   nav {
     top: 0;
