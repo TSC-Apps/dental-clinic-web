@@ -5,7 +5,7 @@ Deny from all
 </FilesMatch>
 
 RewriteEngine on
-RewriteRule start index.html
+RewriteRule / index.html
 RewriteRule kontakt contact.html
 RewriteRule galeria gallery.html
 RewriteRule zespol team.html
