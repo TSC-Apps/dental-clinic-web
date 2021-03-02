@@ -50,6 +50,10 @@
   margin-top: 120px;
   display: flex;
   flex-direction: column;
+
+  @media(max-width: 1050px){
+    margin-top: 80px;
+  }
 }
 
 .person-box {
@@ -66,6 +70,7 @@
   }
 
   @media (max-width: 1050px) {
+    padding: 0 0 34px 0;
     background-color: transparent;
     flex-direction: column;
     opacity: 1;
@@ -79,6 +84,7 @@
   @media (max-width: 1050px) {
     flex-direction: column-reverse;
     margin-left: 0;
+    margin-bottom: 0;
   }
 }
 

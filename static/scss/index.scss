@@ -24,6 +24,17 @@
   }
 }
 
+.start-img {
+  background-image: url("../img/Galeria1.jpg");
+  opacity: 0;
+
+  @media(max-width: 1050px) {
+    opacity: 0.5;
+    background-position-y: 50px;
+    background-position-x: -250px;
+  }
+}
+
 .mid-content {
   display: flex;
   justify-content: space-between;
