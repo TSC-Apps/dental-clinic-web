@@ -29,8 +29,7 @@
 @media (max-width: 1050px) {
   .start-img {
     opacity: 0.8;
-    background-position-y: 50px;
-    background-position-x: -290px;
+    background-position: center;
   }
 }
 
