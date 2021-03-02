@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: http://stomatolog-kolobrzeg.com/sitemap.xml
