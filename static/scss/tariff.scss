@@ -1,6 +1,13 @@
 @use 'variables';
 @import "mixins";
 
+br {
+  display: none;
+  @media(max-width: 1050px) {
+    display: block;
+  }
+}
+
 .upper-content {
   h3 {
     color: variables.$text-black;
