@@ -126,6 +126,10 @@
   margin-right: 120px;
   margin-left: 0;
 
+  @media (max-width: 1200px) {
+    margin-right: 100px;
+  }
+
   @media (max-width: 1050px) {
     margin-top: 40px;
   }
@@ -133,4 +137,8 @@
 
 .landing-circle {
   background: variables.$background-gray;
+}
+
+.contact-options {
+  justify-content: flex-start;
 }
