@@ -64,6 +64,7 @@
 
 .dentist-photo {
   width: 45%;
+  height: 100%; // for safari needs
   object-fit: cover;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
