@@ -148,6 +148,7 @@
     height: 550px;
     margin-top: 50px;
     border-radius: 40px;
+    z-index: 0;
     @include shadow;
 
     @media (max-width: 1050px) {
