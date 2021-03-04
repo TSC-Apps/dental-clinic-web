@@ -1,0 +1,25 @@
+{
+  "name": "dental-clinic-web",
+  "version": "1.0.0",
+  "description": "Dental Clinic Website",
+  "scripts": {
+    "watch": "sass --watch static/scss:static/css",
+    "build": "sass static/scss:static/css && npx postcss static/css/*.css --config postcss.config.js -d static/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSC-Apps/dental-clinic-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TSC-Apps/dental-clinic-web/issues"
+  },
+  "homepage": "https://github.com/TSC-Apps/dental-clinic-web#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.7",
+    "postcss-cli": "^8.3.1"
+  }
+}

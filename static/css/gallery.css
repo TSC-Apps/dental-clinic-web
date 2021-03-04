@@ -10,14 +10,23 @@
 
 #lightgallery {
   margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .gallery-row {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 30px;
 }
 .gallery-row .item {
@@ -28,7 +37,6 @@
   overflow: hidden;
   border-radius: 40px;
   -webkit-box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.05);
 }
 .gallery-row .item::before, .gallery-row .item::after {
@@ -41,17 +49,19 @@
   width: 100%;
 }
 .gallery-row .item::before {
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
   transition: all ease-in-out 0.2s;
   background: #3f4549;
-  background: -moz-linear-gradient(-45deg, #3f4549 0%, rgba(63, 69, 73, 0) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #3f4549), color-stop(100%, rgba(63, 69, 73, 0)));
-  background: -webkit-linear-gradient(-45deg, #3f4549 0%, rgba(63, 69, 73, 0) 100%);
   background: -o-linear-gradient(-45deg, #3f4549 0%, rgba(63, 69, 73, 0) 100%);
-  background: -ms-linear-gradient(-45deg, #3f4549 0%, rgba(63, 69, 73, 0) 100%);
+  background: -o-linear-gradient(315deg, #3f4549 0%, rgba(63, 69, 73, 0) 100%);
   background: linear-gradient(135deg, #3f4549 0%, rgba(63, 69, 73, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#3f4549", endColorstr="#3f4549", GradientType=1 );
 }
 .gallery-row .item::after {
+  -webkit-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
   background: url(../img/zoom.svg) no-repeat center;
 }
@@ -63,8 +73,13 @@
 }
 @media (max-width: 1050px) {
   .gallery-row {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 0;
   }
   .gallery-row .item {
