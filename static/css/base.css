@@ -232,6 +232,7 @@ a[href="index.html"] {
   width: 20px;
   background-size: 100%;
   display: none;
+  overflow: visible;
 }
 @media (max-width: 1050px) {
   .hamburger {
