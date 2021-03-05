@@ -62,7 +62,7 @@
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 0;
-  height: 70px;
+  min-height: 70px;
 }
 .contact-content .upper-boxes .box .contact-options {
   -webkit-box-orient: vertical;
