@@ -329,6 +329,8 @@ footer {
 .contact {
   display: flex;
   margin-top: 20px;
+  // undo below line for third contact number
+  margin-right: 80px;
 
   span {
     display: block;
@@ -360,7 +362,7 @@ footer {
 
 .contact-options {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   @media (max-width: 1050px) {
     flex-direction: column;
   }

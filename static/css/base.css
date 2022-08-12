@@ -323,6 +323,7 @@ footer {
 .contact {
   display: flex;
   margin-top: 20px;
+  margin-right: 80px;
 }
 .contact span {
   display: block;
@@ -355,7 +356,6 @@ footer {
 
 .contact-options {
   display: flex;
-  justify-content: space-between;
 }
 @media (max-width: 1050px) {
   .contact-options {
